@@ -54,6 +54,10 @@ MCP (Model Context Protocol) is the standard that lets AI tools communicate with
 
 You do not need to understand MCP to use Open Brain. Once it is set up, it works invisibly. Your AI talks to your database; you just talk to your AI.
 
+### CLI-Direct: An Alternative to MCP
+
+If you use terminal-based AI tools (Claude Code, OpenAI Codex, Gemini CLI), you can skip MCP entirely and use the [`ob` CLI tool](../resources/ob-cli/) instead. It talks directly to Supabase using `curl` and `jq` — no Edge Function, no MCP server, no deployment step. Commands like `ob capture`, `ob search`, `ob recent`, and `ob stats` do the same thing as the MCP tools. Both approaches use the same database and are fully interoperable. See the [CLI-Direct Approach](CLI_DIRECT_APPROACH.md) for the full guide.
+
 ---
 
 ## 10 Simple Use Cases (Quick Wins)

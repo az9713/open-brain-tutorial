@@ -12,7 +12,7 @@ Your Open Brain is built. Now make it work for you. These five prompts cover the
 - **Prompt 4: Quick Capture Templates** — Five capture patterns optimized for clean metadata extraction
 - **Prompt 5: The Weekly Review** — End-of-week synthesis that surfaces themes, forgotten action items, and emerging patterns
 
-**Tools:** All prompts work with any MCP-connected AI (Claude, ChatGPT, Gemini, Grok). Prompt 1 specifically requires an AI that has accumulated memory about you. Prompts 2 and 5 require your Open Brain MCP server to be connected.
+**Tools:** All prompts work with any MCP-connected AI (Claude, ChatGPT, Gemini, Grok). Prompt 1 specifically requires an AI that has accumulated memory about you. Prompts 2 and 5 require your Open Brain MCP server to be connected. If you use the [CLI-Direct approach](CLI_DIRECT_APPROACH.md) with the [`ob` CLI tool](../resources/ob-cli/) instead of MCP, you can adapt these prompts by having your AI run `ob capture` and `ob search` shell commands in place of the MCP tools.
 
 ---
 

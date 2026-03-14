@@ -10,6 +10,8 @@ https://github.com/user-attachments/assets/85208d73-112b-4204-82fd-d03b6c397a8b
 
 A database that stores your thoughts with vector embeddings, plus an MCP server that lets any AI assistant search and write to your brain. No Slack required — capture happens from whatever AI tool you're already using (Claude Desktop, ChatGPT, Claude Code, Cursor).
 
+> **Using a terminal-based AI tool (Claude Code, Codex, Gemini CLI)?** You can skip MCP entirely and use the lightweight `ob` CLI instead. See the [CLI-Direct Approach](CLI_DIRECT_APPROACH.md) guide and the [`ob` CLI tool](../resources/ob-cli/). You still need Steps 1–4 below (database + OpenRouter), but you can skip Steps 5–7 (Edge Function and MCP).
+
 ## What You Need
 
 About 30 minutes and zero coding experience. You'll copy and paste everything.

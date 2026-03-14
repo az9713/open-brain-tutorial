@@ -610,14 +610,17 @@ docs/
 
 These are end-user docs. The DEVELOPER_GUIDE.md you are reading is also in this folder.
 
-### `resources/` — Claude Skill and Companion Files
+### `resources/` — Companion Tools and Files
 
 ```
 resources/
-└── (Claude Skill and companion prompt files)
+├── ob-cli/              # ob CLI tool — direct Open Brain access without MCP
+│   ├── ob               # The bash script (curl + jq only)
+│   └── README.md        # Installation and usage
+└── open-brain-companion.skill  # Claude Skill for AI-assisted help
 ```
 
-Resources are companion tools — things like the Claude Skill that knows the Open Brain system and can help users when they get stuck.
+Resources are companion tools. The `ob` CLI provides a lightweight alternative to MCP for terminal-based AI tools — see [`docs/CLI_DIRECT_APPROACH.md`](CLI_DIRECT_APPROACH.md) for the full guide. The Claude Skill helps users when they get stuck.
 
 ### `.ignore/` — Files Hidden from Some Tools
 

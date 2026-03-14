@@ -180,4 +180,22 @@ If you run into a blocker, post it in the Substack chat thread — not in someon
 
 ---
 
+---
+
+## CLI-Direct and the `ob` Tool
+
+### "Can I use Open Brain from the terminal without MCP?"
+
+Yes. The [CLI-Direct Approach](CLI_DIRECT_APPROACH.md) describes how to use Open Brain from terminal-based AI tools (Claude Code, OpenAI Codex, Gemini CLI) without MCP. It uses a lightweight bash script called `ob` that talks directly to Supabase and OpenRouter using `curl` and `jq`. No Edge Function, no MCP server, no deployment step. Setup takes 5–10 minutes. The script lives at [`resources/ob-cli/ob`](../resources/ob-cli/) in this repo.
+
+### "Should I use MCP or the `ob` CLI?"
+
+If you only use terminal-based AI tools, the CLI-Direct approach is simpler. If you use both GUI clients (Claude Desktop, ChatGPT) and CLI tools, use both — MCP for GUI, `ob` for terminal. Both paths write to the same `thoughts` table and are fully interoperable. See the [comparison matrix](CLI_DIRECT_APPROACH.md#9-comparison-matrix-mcp-vs-cli-direct) for a detailed breakdown.
+
+### "I set up `ob` but `ob capture` fails"
+
+Check your environment variables: `OB_SUPABASE_URL`, `OB_SUPABASE_KEY`, and `OB_OPENROUTER_KEY` must all be set. Run `ob version` to see which are configured. See the [CLI-Direct troubleshooting section](CLI_DIRECT_APPROACH.md#11-troubleshooting) for common issues.
+
+---
+
 *This FAQ is based on real community questions from the Substack chat and YouTube comments. If you run into something not covered here, [open an issue](https://github.com/NateBJones-Projects/OB1/issues) or post in the [Substack community](https://natesnewsletter.substack.com/) so everyone benefits from the answer.*

@@ -30,6 +30,7 @@ This is a first-class path, not a workaround. Some of the best contributions com
 | `schemas/` | Database table extensions and metadata schemas | CRM contacts table, taste tracker, reading list schema | Open |
 | `dashboards/` | Frontend templates for Vercel/Netlify hosting | Knowledge dashboard, weekly review, mobile capture UI | Open |
 | `integrations/` | MCP extensions, webhooks, capture sources | Discord bot, email handler, browser extension, calendar sync | Open |
+| `resources/` | Companion tools and files | `ob` CLI tool, Claude Skill | Not a contribution category |
 
 ### Extensions vs Primitives vs Recipes
 

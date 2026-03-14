@@ -6,6 +6,8 @@ Point your AI coding tool at this repo and tell it to walk you through the [setu
 
 This works in Cursor, Claude Code, Codex, Windsurf, OpenClaw, or any AI coding tool that can read files. You don't need to copy-paste from a browser or follow along manually. Let your AI be your pair programmer through the whole build.
 
+> **Terminal-only alternative:** If you use Claude Code, Codex, or Gemini CLI and want the simplest possible setup, consider the [CLI-Direct Approach](CLI_DIRECT_APPROACH.md) instead. It uses a lightweight [`ob` CLI tool](../resources/ob-cli/) (`curl` + `jq` only) to talk directly to Supabase — no MCP server, no Edge Function deployment. Setup takes 5–10 minutes instead of 30–45.
+
 ## How to Start
 
 1. Clone or open this repo in your AI coding tool

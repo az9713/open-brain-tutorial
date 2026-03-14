@@ -21,6 +21,8 @@ Complete reference for the Open Brain MCP Tools API, extension MCP servers, data
 
 The core MCP server is deployed as a Supabase Edge Function. It provides four tools that give any MCP-connected AI client the ability to read and write to the `thoughts` table.
 
+> **CLI alternative:** The [`ob` CLI tool](../resources/ob-cli/) provides the same four capabilities (capture, search, recent, stats) as direct shell commands using `curl` and `jq`. It talks to the same Supabase REST API and `match_thoughts()` RPC function documented below — no MCP server required. See [CLI-Direct Approach](CLI_DIRECT_APPROACH.md) for the full architecture.
+
 **Deployment path:** `supabase/functions/open-brain-mcp/index.ts`
 
 **Live URL pattern:**

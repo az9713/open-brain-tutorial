@@ -23,6 +23,8 @@ This document describes the complete technical architecture of the Open Brain sy
 
 Open Brain is a three-tier system. Think of it like a classic client-server application, except the "client" is an AI assistant and the "server" speaks a specialized protocol called MCP.
 
+> **Alternative path:** Terminal-based AI tools (Claude Code, Codex, Gemini CLI) can bypass Tier 2 entirely using the [`ob` CLI tool](../resources/ob-cli/), which calls the Supabase REST API and OpenRouter directly. See [CLI-Direct Approach](CLI_DIRECT_APPROACH.md) for that architecture. Both paths use the same Tier 3 infrastructure and the same `thoughts` table.
+
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                         TIER 1: AI CLIENTS                          │

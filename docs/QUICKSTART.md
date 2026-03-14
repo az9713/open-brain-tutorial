@@ -4,6 +4,8 @@ Your Open Brain is set up and connected. Now let's make sure it works — and ge
 
 > **Not set up yet?** This guide assumes you have a working Open Brain (database + MCP server + AI client connected). If you have not done that yet, start with the [Setup Guide](01-getting-started.md).
 
+> **Using the CLI-Direct approach?** If you set up Open Brain with the [`ob` CLI tool](../resources/ob-cli/) instead of MCP, this guide still applies — just use `ob capture`, `ob search`, `ob recent`, and `ob stats` commands instead of asking your AI to use MCP tools. See [CLI-Direct Approach](CLI_DIRECT_APPROACH.md) for details.
+
 ---
 
 ## Prerequisites

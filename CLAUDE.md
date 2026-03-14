@@ -18,7 +18,7 @@ schemas/        — Database table extensions. Open.
 dashboards/     — Frontend templates (Vercel/Netlify). Open.
 integrations/   — MCP extensions, webhooks, capture sources. Open.
 docs/           — Setup guides, FAQ, companion prompts.
-resources/      — Claude Skill, companion files.
+resources/      — Claude Skill, companion files, ob CLI tool.
 ```
 
 Every contribution lives in its own subfolder under the right category and must include `README.md` + `metadata.json`.
@@ -58,3 +58,4 @@ Every contribution lives in its own subfolder under the right category and must 
 - `docs/02-companion-prompts.md` — Five prompts for memory migration, use case discovery, and weekly review
 - `docs/03-faq.md` — Common issues, architecture questions, and community tips
 - `docs/04-ai-assisted-setup.md` — Build with Cursor, Claude Code, or other AI coding tools
+- `docs/CLI_DIRECT_APPROACH.md` — CLI-Direct approach: use Open Brain from terminal AI tools without MCP
